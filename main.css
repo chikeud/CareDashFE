@@ -1,0 +1,116 @@
+#container { width: 80%; margin: auto; background-color: grey; padding: 20px; }
+.row { height: 150px; margin-bottom: 20px; position: relative; }
+.row div { height: 100%; }
+.single { background-color: white; }
+.column-2 { width: 48%; }
+.column-3 { width: 30%; }
+.left { background-color: yellow; float: left; }
+.center { float: left; margin: 0 5%; background-color: orange; }
+.right { background-color: green; float: right; }
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+.fullpage{
+    background-image: url("caredash-default-image.jpg");
+
+}
+.logo-wrapper{
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.border-line {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 16px;
+
+}
+
+.border-line:hover {
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.signupbtn {
+    padding: 14px 20px;
+    background-color: lightgrey;
+    margin-right:5px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.loginbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .signubtn, .loginbtn {
+        width: 100%;
+    }
+}
